@@ -1,0 +1,26 @@
+// 1. Fonts
+@import 'scss/fonts/fonts';
+
+// 2. Basics
+@import 'scss/base/mixins';
+@import 'scss/base/variables';
+@import 'scss/base/reset';
+@import 'scss/base/typography';
+@import 'scss/base/display';
+@import 'scss/base/myforms';
+
+// 3.  UI Fabric & Font Aweomse
+@import 'scss/uifabric/fabric.css';
+@import 'scss/fontawesome/all.css';
+
+// 4. Custom
+@import 'scss/custom/custom';
+
+p {
+  color: $primary-color;
+}
+
+.box {
+  @include size(500px, 300px);
+  background: $primary-color;
+}
